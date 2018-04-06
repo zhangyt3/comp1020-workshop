@@ -1,5 +1,6 @@
 public class LinkedLists {
     public static void main(String[] args) {
+        // Create a LinkedList that's in ascending order
         LinkedList list = new LinkedList();
         list.addStart(28);
         list.addStart(25);

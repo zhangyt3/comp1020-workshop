@@ -39,3 +39,14 @@ then after calling `simplify()`, it should contain:
 13 15 17 19 22 25 28
 ```
 
+## Recursion.java
+Adapted from https://leetcode.com/problems/add-digits/description/.
+
+Given a non-negative integer `num`, repeatedly add all its digits until the result has only one digit. Return the single digit. Use recursion!
+
+For example, given `num=38`:
+```
+3 + 8 = 11
+1 + 1 = 2
+```
+so we would return 2.
