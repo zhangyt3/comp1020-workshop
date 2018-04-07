@@ -51,8 +51,8 @@ class LinkedList {
      */
     public void simplify() {
         Node curr = top;
-        while (curr.getLink() != null) {
-            if (curr.getData() == curr.getLink().getData()) {
+        while (curr != null) {
+            if (curr.getLink() != null && curr.getData() == curr.getLink().getData()) {
                 // Duplicate found, remove it
                 curr.setLink(curr.getLink().getLink());
             }

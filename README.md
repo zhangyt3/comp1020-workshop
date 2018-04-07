@@ -50,11 +50,3 @@ For example, given `num=38`:
 1 + 1 = 2
 ```
 so we would return 2.
-
-## RecursiveMax.java
-
-Given a list of integers, return the max value.
-
-## RecursiveReversal.java
-
-Given a string, return the string backwards.
